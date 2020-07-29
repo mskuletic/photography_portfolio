@@ -1,0 +1,90 @@
+* {
+    background-color: #000;
+    color: #fff;
+}
+
+.sub-title h1 {
+    color: #ff22ff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-item a {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.welcome {
+    height: 100vh;
+}
+
+.title {
+    padding-top: 20%;
+    text-align: center;
+}
+
+.sub-title {
+    padding-top: 20%;
+    text-align: center;
+}
+
+hr {
+    background-color: #fff;
+    width: 50%;
+    margin-top: 0 !important;
+    margin-bottom: 4rem !important;
+}
+
+.contact {
+    background: linear-gradient(-45deg, #BB9F06, #5AAA95, #F78E69, #F1BB87);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+
+}
+
+.contact h2 {
+    background: linear-gradient(-45deg, #4A7C59, #68B0AB, #F1BB87, #313B72);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    font-weight: 300;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #000;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.contact h2 a {
+    text-decoration: none;
+    color: #000;
+}
+
+.contact h2 a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: #68B0AB;
+}
