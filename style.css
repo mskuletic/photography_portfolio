@@ -38,6 +38,18 @@ hr {
     margin-bottom: 4rem !important;
 }
 
+.img-fluid {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.img-fluid:hover {
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
+}
+
 .contact {
     background: linear-gradient(-45deg, #BB9F06, #5AAA95, #F78E69, #F1BB87);
     background-size: 400% 400%;
