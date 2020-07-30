@@ -21,6 +21,10 @@ html {
     height: 100vh;
 }
 
+#welcome {
+    margin-top: 4rem;
+}
+
 .title {
     padding-top: 20%;
     text-align: center;
